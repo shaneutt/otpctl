@@ -1,0 +1,18 @@
+[package]
+name = "otpctl"
+description = "command line tool for one-time password authentication"
+version = "0.0.1"
+authors = ["Shane Utt <shaneutt@linux.com>"]
+keywords = ["otp", "otpauth", "hotp", "totp"]
+repository = "https://github.com/rust-otp/otpctl"
+readme = "README.md"
+license = "GPL-3.0-only"
+edition = "2018"
+
+[dependencies]
+log = "0.4"
+otplib = "0.0.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.8"
+structopt = "0.3"
+url = "2.1"
