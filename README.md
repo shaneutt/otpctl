@@ -1,4 +1,4 @@
-[![Rust](https://github.com/rust-otp/otpctl/workflows/Rust/badge.svg)](https://github.com/rust-otp/otpctl/actions)
+[![Rust](https://github.com/rust-vault/otpctl/workflows/Rust/badge.svg)](https://github.com/rust-vault/otpctl/actions)
 [![Crates.io](https://img.shields.io/badge/crates.io-v0.0.1-orange.svg?longCache=true)](https://crates.io/crates/otpctl)
 
 # Rust OTP (One-Time Password) CLI
