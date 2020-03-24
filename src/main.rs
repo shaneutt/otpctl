@@ -90,7 +90,7 @@ fn get_codes(tokens_opt: Option<Vec<String>>) -> Vec<(String, u32, u32)> {
         codes.push((issuer, digits, auth.generate_totp()));
     }
 
-    return codes;
+    codes
 }
 
 fn parse_tokens(tokens: Option<Vec<String>>) -> Vec<String> {
